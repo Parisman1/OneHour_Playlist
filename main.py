@@ -175,7 +175,7 @@ if __name__ == "__main__":
             fileList = f.readlines()
             # print('START')
             # for val in fileList:
-                # print(val)
+            # print(val)
             # print('END')
             # print('pulled from file size = ', len(fileList))
         for val in fileList:
