@@ -169,15 +169,9 @@ if __name__ == "__main__":
     songs_used = []
     new = False
 
-# need to change how reads in values from file, currently is extremly broken
     if os.path.exists('Songs.txt'):
         with open('Songs.txt', 'r') as f:
             fileList = f.readlines()
-            # print('START')
-            # for val in fileList:
-            # print(val)
-            # print('END')
-            # print('pulled from file size = ', len(fileList))
         for val in fileList:
             valList.append(int(val))
     else:
